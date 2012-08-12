@@ -3,6 +3,13 @@
 
   Trims string whitespace.
 
+## Installation
+
+```
+$ npm install trim
+$ component install component/trim
+```
+
 ## API
 
    - [trim(str)](#trimstr)
