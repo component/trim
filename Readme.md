@@ -1,4 +1,3 @@
-
 # trim
 
   Trims string whitespace.
@@ -15,9 +14,9 @@ $ component install component/trim
    - [trim(str)](#trimstr)
    - [.left(str)](#leftstr)
    - [.right(str)](#rightstr)
-<a name="" />
+<a name=""></a>
  
-<a name="trimstr" />
+<a name="trimstr"></a>
 ### trim(str)
 should trim leading / trailing whitespace.
 
@@ -26,7 +25,7 @@ trim('  foo bar  ').should.equal('foo bar');
 trim('\n\n\nfoo bar\n\r\n\n').should.equal('foo bar');
 ```
 
-<a name="leftstr" />
+<a name="leftstr"></a>
 ### .left(str)
 should trim leading whitespace.
 
@@ -34,7 +33,7 @@ should trim leading whitespace.
 trim.left('  foo bar  ').should.equal('foo bar  ');
 ```
 
-<a name="rightstr" />
+<a name="rightstr"></a>
 ### .right(str)
 should trim trailing whitespace.
 
