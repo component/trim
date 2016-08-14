@@ -2,6 +2,7 @@
   "name": "trim",
   "version": "0.0.1",
   "description": "Trim string whitespace",
+  "license": "MIT",
   "keywords": [
     "string",
     "trim"
