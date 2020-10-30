@@ -1,3 +1,4 @@
+var should = require('should');
 
 var trim = require('..');
 

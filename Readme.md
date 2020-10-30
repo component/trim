@@ -42,6 +42,14 @@ should trim trailing whitespace.
 trim.right('  foo bar  ').should.equal('  foo bar');
 ```
 
+## Development
+
+Run tests with
+
+```js
+npx mocha
+```
+
 
 ## License 
 
